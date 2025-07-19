@@ -7,6 +7,7 @@ import Nest from './components/Nest'
 import Card from './Pages/Card'
 import Sellers from './components/Sellers'
 import Menu from './components/Menu'
+import BestSellers from './components/BestSellers'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <Card/>
     <Sellers/>
     <Menu/>
+    <BestSellers/>
     </>
   )
 }

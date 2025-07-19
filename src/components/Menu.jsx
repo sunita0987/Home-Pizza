@@ -1,6 +1,8 @@
 import React from "react";
 import { CRAVINGS_DATA } from "../utils/helper";
 import { useState } from "react";
+import line from "../assets/images/line2.png";
+import lineorange from "../assets/images/line3.png";
 
 export const PIZZA_CTY = [
   "All",
@@ -14,7 +16,12 @@ const Menu = () => {
   const [activeTab, setActiveTab] = useState("All");
   return (
     <div className="px-6 py-10 max-w-6xl mx-auto">
-      <p className="text-[#EC6112] text-sm font-bold text-center">Our Menu</p>
+      <div>
+        <img src={line} alt="line" className="w-[60px] h-[1px]" />
+        <p className="text-[#EC6112] text-sm font-bold text-center">Our Menu</p>
+        <img src={lineorange} alt="line" className="w-[60px] h-[1px] mt-3" />
+      </div>
+
       <h2 className="text-3xl font-normal text-center mb-6">
         Explore Flavours, Pick <br /> Your Cravings
       </h2>
