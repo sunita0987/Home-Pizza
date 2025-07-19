@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import Herosection from './components/Herosection'
 import Nest from './components/Nest'
 import Card from './Pages/Card'
+import Sellers from './components/Sellers'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <Herosection/>
     <Nest/>
     <Card/>
+    <Sellers/>
     </>
   )
 }
