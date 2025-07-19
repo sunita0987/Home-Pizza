@@ -5,41 +5,57 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
-const TestimonialsSlider = () => {
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+
+const TestimonialSlider = () => {
   return (
-    <div className="max-w-6xl mx-auto px-4 py-16 text-center">
-      <h3 className="text-orange-500 font-semibold mb-2">Testimonial</h3>
-      <h2 className="text-3xl md:text-4xl font-bold mb-10">
-        What Our Customers Say
+    <section className="py-16 bg-white">
+      <h2 className="text-center text-orange-500 font-semibold text-sm mb-2">
+        Testimonial
       </h2>
+      <h3 className="text-center text-3xl font-bold mb-10">
+        What Our Customers Say
+      </h3>
+
       <Swiper
         modules={[Navigation]}
-        navigation={true}
-        spaceBetween={50}
-        slidesPerView={1}
-        loop={true}
+        navigation={{
+          nextEl: ".next-btn",
+          prevEl: ".prev-btn",
+        }}
+        loop
+        spaceBetween={30}
+        className="max-w-4xl mx-auto"
       >
-        {TEST_DATA.map((t, i) => (
-          <SwiperSlide key={i}>
-            <div className="flex flex-col md:flex-row items-center justify-center gap-10">
+        {TEST_DATA.map((item, index) => (
+          <SwiperSlide key={index}>
+            <div className="flex flex-col md:flex-row items-center gap-8 p-6 rounded-xl">
               <img
-                src={t.pizza}
-                alt="Food"
-                className="w-80 h-80 object-cover rounded-xl shadow-lg"
+                src={item.pizza}
+                alt="testimonial"
+                className="w-100 h-50"
               />
-              <div className="bg-white shadow-lg rounded-xl p-6 max-w-xl text-left relative">
-                <p className="text-[#545454]">{t.text}</p>
-                <h4 className="font-normal text-lg mt-5">{t.name}</h4>
-                <p className="text-sm text-gray-500">{t.role}</p>
-                <span className="text-5xl text-orange-100 absolute bottom-4 right-4">
-                  “
-                </span>
+              <div className="text-left space-y-4 bg-[#ffffff] rounded-xl shadow-xl ">
+                <p className="text-gray-600 ml-10" >{item.text}</p>
+                <div>
+                  <h4 className="font-bold text-xl ml-10">{item.name}</h4>
+                  <p className="text-gray-500 ml-10">{item.role}</p>
+                </div>
               </div>
             </div>
           </SwiperSlide>
         ))}
+        <div className="flex justify-center gap-4 mt-6">
+          <button className="prev-btn bg-gray-200 p-2 rounded hover:bg-gray-300">
+            <FaArrowLeft />
+          </button>
+          <button className="next-btn bg-orange-500 p-2 rounded text-white hover:bg-orange-600">
+            <FaArrowRight />
+          </button>
+        </div>
       </Swiper>
-    </div>
+    </section>
   );
 };
-export default TestimonialsSlider;
+
+export default TestimonialSlider;
