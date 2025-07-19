@@ -3,6 +3,12 @@ import cheese from "../assets/images/cheesepanner.png";
 import veggie from "../assets/images/veggiefiesta.png";
 import masalaPaneer from "../assets/images/masalapanner.png";
 
+
+import farmhouse from "../assets/images/vegpizza.png";
+import masala from "../assets/images/pannermasala.png";
+import combo from "../assets/images/drink.png";
+
+
 export const PIZZAS = [
   {
     name: "Tandoori Paneer",
@@ -33,3 +39,75 @@ export const PIZZAS = [
     image: masalaPaneer,
   },
 ];
+
+
+
+export const CRAVINGS_DATA = {
+  All: [
+    {
+      price: "₹229 / ₹359 / ₹499",
+      name: "Farmhouse Magic",
+      description:
+        "Onion, capsicum, tomato, grilled mushroom, mozzarella cheese",
+      img: farmhouse,
+    },
+    {
+      price: "₹279 / ₹399 / ₹519",
+      name: "Masala Paneer",
+      description:
+        "Onion, capsicum, tomato, grilled mushroom, mozzarella cheese",
+      img: masala,
+    },
+    {
+      price: "₹379",
+      name: "Solo Meal Combo",
+      description:
+        "Onion, capsicum, tomato, grilled mushroom, mozzarella cheese",
+      img: combo,
+    },
+  ],
+  "Veg Pizzas": [
+    {
+      price: "₹229 / ₹359 / ₹499",
+      name: "Farmhouse Magic",
+      decscription:
+        "Onion, capsicum, tomato, grilled mushroom, mozzarella cheese",
+      img: farmhouse,
+    },
+    {
+      price: "₹279 / ₹399 / ₹519",
+      name: "Masala Paneer",
+      description:
+        "Onion, capsicum, tomato, grilled mushroom, mozzarella cheese",
+      img: masala,
+    },
+  ],
+  "Non-Veg Pizzas": [
+    {
+      price: "₹299 / ₹419 / ₹549",
+      name: "Chicken Tikka",
+      description:
+        "Onion, capsicum, tomato, grilled mushroom, mozzarella cheese",
+      img: masala,
+    },
+  ],
+
+  "Combos & Drinks": [
+    {
+      price: "₹379",
+      name: "Solo Meal Combo",
+      decscription:
+        "Onion, capsicum, tomato, grilled mushroom, mozzarella cheese",
+      img: combo,
+    },
+  ],
+  "Sides & Dips": [
+    {
+      price: "₹99",
+      name: "Garlic Bread",
+      decscription:
+        "Onion, capsicum, tomato, grilled mushroom, mozzarella cheese",
+      img: combo,
+    },
+  ],
+};

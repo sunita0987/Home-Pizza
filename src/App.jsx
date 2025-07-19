@@ -6,6 +6,7 @@ import Herosection from './components/Herosection'
 import Nest from './components/Nest'
 import Card from './Pages/Card'
 import Sellers from './components/Sellers'
+import Menu from './components/Menu'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <Nest/>
     <Card/>
     <Sellers/>
+    <Menu/>
     </>
   )
 }
