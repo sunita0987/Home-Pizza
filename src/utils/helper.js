@@ -8,6 +8,8 @@ import farmhouse from "../assets/images/vegpizza.png";
 import masala from "../assets/images/pannermasala.png";
 import combo from "../assets/images/drink.png";
 
+import slice from "../assets/images/customer.png";
+
 
 export const PIZZAS = [
   {
@@ -111,3 +113,25 @@ export const CRAVINGS_DATA = {
     },
   ],
 };
+
+
+export const TEST_DATA = [
+  {
+    name: "Aarav Mehta",
+    role: "Software Developer",
+    text: " The Masala Paneer Pizza was bursting with flavor! The paneer was perfectly marinated in Indian spices, and the balance of onions, capsicum, and cheese was spot on. It tasted like my favorite desi snck-just in pizza from! Super satisfying and definitely ordering again. ",
+    pizza: slice,
+  },
+  {
+    name: "Jiya Sharma",
+    role: "UI/UX Designer",
+    text: " The Masala Paneer Pizza was bursting with flavor! The paneer was perfectly marinated in Indian spices, and the balance of onions, capsicum, and cheese was spot on. It tasted like my favorite desi snck-just in pizza from! Super satisfying and definitely ordering again.",
+    pizza: slice,
+  },
+  {
+    name: "Rahul Sharma",
+    role: "front-end developer",
+    text: "The Masala Paneer Pizza was bursting with flavor! The paneer was perfectly marinated in Indian spices, and the balance of onions, capsicum, and cheese was spot on. It tasted like my favorite desi snck-just in pizza from! Super satisfying and definitely ordering again.",
+    pizza: slice,
+  },
+];

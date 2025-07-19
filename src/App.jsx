@@ -9,6 +9,10 @@ import Sellers from './components/Sellers'
 import Menu from './components/Menu'
 import BestSellers from './components/BestSellers'
 import FoodDelivery from './components/FoodDelivery'
+import PerfectPizza from './components/PerfectPizza'
+import Testimonial from "./components/Testimonial"
+import PizzaBanner from './components/PizzaBanner'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -22,6 +26,10 @@ function App() {
     <Menu/>
     <BestSellers/>
     <FoodDelivery/>
+    <PerfectPizza/>
+    <Testimonial/>
+    <PizzaBanner/>
+    <Footer/>
     </>
   )
 }
