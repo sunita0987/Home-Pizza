@@ -8,6 +8,7 @@ import Card from './Pages/Card'
 import Sellers from './components/Sellers'
 import Menu from './components/Menu'
 import BestSellers from './components/BestSellers'
+import FoodDelivery from './components/FoodDelivery'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <Sellers/>
     <Menu/>
     <BestSellers/>
+    <FoodDelivery/>
     </>
   )
 }
