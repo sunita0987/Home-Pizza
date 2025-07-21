@@ -18,7 +18,6 @@ const steps = [
     desc: "Watch your pizza arrive in real-time, fresh and hot at your door. Unbox happiness and dig in!",
   },
 ];
-
 const PerfectPizza = () => {
   return (
     <section className="py-12 px-6 text-center bg-white">
@@ -73,5 +72,4 @@ const PerfectPizza = () => {
     </section>
   );
 };
-
 export default PerfectPizza;

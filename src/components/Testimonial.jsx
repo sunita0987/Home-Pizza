@@ -4,9 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-
 const TestimonialSlider = () => {
   return (
     <section className="py-16 bg-white">
@@ -16,7 +14,6 @@ const TestimonialSlider = () => {
       <h3 className="text-center text-3xl font-bold mb-10">
         What Our Customers Say
       </h3>
-
       <Swiper
         modules={[Navigation]}
         navigation={{

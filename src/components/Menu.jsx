@@ -21,7 +21,6 @@ const Menu = () => {
         <p className="text-[#EC6112] text-sm font-bold text-center">Our Menu</p>
         <img src={lineorange} alt="line" className="w-[60px] h-[1px] mt-3" />
       </div>
-
       <h2 className="text-3xl font-normal text-center mb-6">
         Explore Flavours, Pick <br /> Your Cravings
       </h2>

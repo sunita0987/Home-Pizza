@@ -80,7 +80,6 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-
       <div className="border-t-4 border-[#D1D1D166] mt-10 pt-4 text-center text-[#575757] text-sm">
         Copyright Pizza Nest © 2025, All rights reserved
       </div>

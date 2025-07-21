@@ -1,6 +1,5 @@
 import React from "react";
 import Spicy from "../assets/images/bannercta.png";
-
 const PizzaBanner = () => {
   return (
     <section
@@ -30,5 +29,4 @@ const PizzaBanner = () => {
     </section>
   );
 };
-
 export default PizzaBanner;
