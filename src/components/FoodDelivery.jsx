@@ -4,9 +4,7 @@ const FoodDelivery = () => {
   return (
     <div className=" opacity-80 py-12 px-4 md:px-16 flex flex-col md:flex-row items-center justify-between">
       <div className="md:w-1/2 space-y-6 text-center md:text-left">
-        <p className="text-[#EC6112] font-semibold">
-          Food Delivery
-        </p>
+        <p className="text-[#EC6112] font-semibold">Food Delivery</p>
         <h1 className="text-3xl md:text-5xl font-normal text-[#010101] w-[500px] leading-tight">
           Fast, Fresh & Always On Time
         </h1>

@@ -30,13 +30,9 @@ const TestimonialSlider = () => {
         {TEST_DATA.map((item, index) => (
           <SwiperSlide key={index}>
             <div className="flex flex-col md:flex-row items-center gap-8 p-6 rounded-xl">
-              <img
-                src={item.pizza}
-                alt="testimonial"
-                className="w-100 h-50"
-              />
-              <div className="text-left space-y-4 bg-[#ffffff] rounded-xl shadow-xl ">
-                <p className="text-gray-600 ml-10" >{item.text}</p>
+              <img src={item.pizza} alt="testimonial" className="w-100 h-50" />
+              <div className="text-left space-y-4  bg-[#ffffff] rounded-xl shadow-xl ">
+                <p className="text-gray-600 ml-10">{item.text}</p>
                 <div>
                   <h4 className="font-bold text-xl ml-10">{item.name}</h4>
                   <p className="text-gray-500 ml-10">{item.role}</p>

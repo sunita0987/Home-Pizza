@@ -1,21 +1,21 @@
 import React from "react";
 import chefImage from "../assets/images/owner.png";
-import slice from "../assets/images/whiteimage.png"
-import line from './../assets/images/line.png'
+import slice from "../assets/images/whiteimage.png";
+import line from "./../assets/images/line.png";
 import { FaUserTie, FaStar, FaHeadset } from "react-icons/fa";
 const Nest = () => {
   return (
-      <section
-          className="relative bg-cover bg-no-repeat bg-center text-[#ffffff] w-full"
-          style={{
-            backgroundImage: `url(${slice})`,
-          }}
-        >
+    <section
+      className="relative bg-cover bg-no-repeat bg-center text-[#ffffff] w-full"
+      style={{
+        backgroundImage: `url(${slice})`,
+      }}
+    >
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 ml-20">
         <div>
           <div className="flex ">
-              <p className="text-[#EC6112]  font-semibold mb-2">About Us </p>
-              <img src={line} alt="line" className="w-[60px] h-[1px] mt-3" />
+            <p className="text-[#EC6112]  font-semibold mb-2">About Us </p>
+            <img src={line} alt="line" className="w-[60px] h-[1px] mt-3" />
           </div>
           <h2 className="text-3xl md:text-4xl  mb-4 font-Nunito text-[#000000]">
             Welcome to the Nest
@@ -52,14 +52,14 @@ const Nest = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <img src={chefImage} alt="Chef" className="w-[350px]" />
+          <img
+            src={chefImage}
+            alt="Chef"
+            className="w-[350px] sm:w-[300px] md:w-[350px] lg:w-[400px]"
+          />
         </div>
       </div>
     </section>
   );
 };
 export default Nest;
-
-
-
-
