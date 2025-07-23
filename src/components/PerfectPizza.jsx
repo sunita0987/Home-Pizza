@@ -1,6 +1,5 @@
 import React from "react";
 import { FaPizzaSlice, FaRegClipboard, FaMapMarkerAlt } from "react-icons/fa";
-
 const steps = [
   {
     icon: <FaPizzaSlice size={32} className="text-orange-500" />,
@@ -8,7 +7,12 @@ const steps = [
     desc: "Browse our mouthwatering menu and pick your favorite from a wide range of cheesy, spicy, and desi-delicious pizzas.",
   },
   {
-    icon: <FaRegClipboard size={32} className="text-orange-500" />,
+    icon: (
+      <FaRegClipboard
+        size={32}
+        className="text-orange-500"
+      />
+    ),
     title: "Place Your Order",
     desc: "Confirm your cart, choose delivery or pickup, and pay securely — all in under a minute.",
   },

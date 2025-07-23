@@ -13,7 +13,7 @@ const Nest = () => {
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 ml-20">
         <div>
-          <div className="flex ">
+          <div className="flex">
             <p className="text-[#EC6112]  font-semibold mb-2">About Us </p>
             <img src={line} alt="line" className="w-[60px] h-[1px] mt-3" />
           </div>

@@ -42,7 +42,7 @@ const TestimonialSlider = () => {
           <button className="prev-btn bg-gray-200 p-2 rounded hover:bg-gray-300">
             <FaArrowLeft />
           </button>
-          <button className="next-btn bg-orange-500 p-2 rounded text-white hover:bg-orange-600">
+          <button className="next-btn bg-[#EC6112] p-2 rounded text-white hover:bg-[#FF902E]">
             <FaArrowRight />
           </button>
         </div>
